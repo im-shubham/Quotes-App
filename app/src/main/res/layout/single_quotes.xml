@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="20dp"
+    android:padding="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/imprima"
+            android:text="This attribute declares which activity this layout is associated with by default."
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textView_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Ramadev Baba"
+            android:textColor="@color/main"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="3dp"
+            android:textStyle="bold" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_copy"
+            android:text="Copy Quote"
+            android:layout_margin="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+
+            android:background="@drawable/button_bg"/>
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
